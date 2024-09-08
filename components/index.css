@@ -1,0 +1,112 @@
+.innerBox{
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    max-width: 768px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.innerBox1
+
+{
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: flex-start;
+    max-width: 600px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.typograph-container {
+
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: none;
+    height: auto;
+    position: relative;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
+}
+
+.description-container {
+    --framer-paragraph-spacing: 0px;
+    flex: none;
+    height: auto;
+    position: relative;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.description-text{
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 26px;
+    margin-bottom: 20px; /* This represents paragraph spacing */
+    text-align: start;
+    color: #1c1c1c;
+    text-decoration: none;
+    text-transform: none;
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    font-size: calc(16px * 1); /* Assuming var(--framer-font-size-scale) is 1 */
+    letter-spacing: 0;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1.2em;
+    text-align: start;
+    -webkit-text-stroke-width: initial;
+    -webkit-text-stroke-color: initial;
+    font-feature-settings: initial;
+    text-wrap: normal; /* Assuming var(--framer-text-wrap) is normal */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+    flex-direction: row;
+}

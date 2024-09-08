@@ -1,0 +1,39 @@
+@media (min-width: 810px) and (max-width: 1199px) {
+    .framer-q7tHY .framer-sgjmjn-container {
+        height: 513px;
+        order: 1;
+        width: 748px;
+    }
+}
+
+.video-container {
+    box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
+    flex: none;
+    height: 516px;
+    position: relative;
+    width: 804px;
+    transform: perspective(1200px);
+    display: block;
+    unicode-bidi: isolate;
+    border-radius: 20px;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 19px;
+    transform: translateZ(0.000001px);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.react-video-player {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}

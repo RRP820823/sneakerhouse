@@ -1,0 +1,57 @@
+.button-container {
+
+    align-self: start;
+    flex: none;
+    height: 100%;
+    justify-self: start;
+    position: relative;
+    width: 207px; 
+}
+
+.button-inner-container {
+
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    --framer-paragraph-spacing: 0px;
+    transform: none;
+    opacity: 1;
+}
+
+.button-text {
+
+    font-family: "Inter-Medium", "Inter", "Inter Placeholder", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+
+    font-family: "Inter", "Inter Placeholder", sans-serif; /* Default font-family */
+    font-style: normal; /* Default font-style */
+    font-weight: 400; /* Default font-weight */
+    color: #000; /* Default text color */
+    font-size: calc(16px * 1); /* Default font-size with scale */
+    letter-spacing: 0; /* Default letter-spacing */
+    text-transform: none; /* Default text-transform */
+    text-decoration: none; /* Default text-decoration */
+    line-height: 1.2em; /* Default line-height */
+    text-align: start; /* Default text-align */
+    -webkit-text-stroke-width: initial; /* Default text stroke width */
+    -webkit-text-stroke-color: initial; /* Default text stroke color */
+    font-feature-settings: initial; /* Default font feature settings */
+    text-wrap: normal; /* Default text wrap */
+    margin: 0px; /* Margin reset */
+    padding: 0px; /* Padding reset */
+}
+
+
+
+.button-text-span {
+    display: inline-block;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: max(0em, calc((1.3em - 1.3em) / 2)); 
+    margin: min(0em, calc((1.3em - 1.3em) / -2)); 
+    background-image: linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 360.087%);
+}
